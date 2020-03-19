@@ -65,7 +65,13 @@ git config ###global ###edit
 ### Git sheet ###
  https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf
 
+## Concept Map ##
+<p align="center">
+<img src="figures/concept-map.jpeg" width="500"/>
+</p>
+
  /!\ Git doesn't allow you to save a new commit if no files have been updated.
+
  /!\ A commit saves a snapshot of all files in the repository at the time the commit was made, so checking out an earlier commit will result in all the files being reverted to their state at the time the commit was made. That is, the files will be in a consistent state.
  
 
