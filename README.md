@@ -2,6 +2,10 @@ This repository is not about recipes, but I use it as testing repository of Git 
 
 ## GIT commands ##
 
+<p align="center">
+<img src="figures/intro.jpg" width="500"/>
+</p>
+
 ### reconfigure the username and email ###
 git config --global --edit
 
