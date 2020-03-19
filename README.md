@@ -3,22 +3,22 @@ This repository is not about recipes, but I use it as testing repository of Git 
 ## GIT commands ##
 
 ### reconfigure the username and email ###
-git config ###global ###edit
+git config --global --edit
 
 ### initialise a git repository ###
- cd <repository>
+ cd <working_directory>
  git init
 
- ### make a copy of an entire git repository, including the history, onto your own computer ###
+### make a copy of an entire git repository, including the history, onto your own computer ###
  git clone <git_url>
 
- ### show the commits made in a repository, starting with the most recent ###
+### show the commits made in a repository, starting with the most recent ###
  git log 
 
 ### show the status of the repository, files added, modified or removed, conflict ... ###
  git status
 
- ### compare two commits, printing each line that is present in one commit but not the other ###
+### compare two commits, printing each line that is present in one commit but not the other ###
  git diff <old_commit_id> <new_commit_id>
  git diff
  git diff --staged
@@ -32,7 +32,7 @@ git config ###global ###edit
  or
  git commit -m "commit message"
 
- ### temporary reset all files in a repository to their state at the time of a specific commit ###
+### temporary reset all files in a repository to their state at the time of a specific commit ###
  git checkout
 
 ### remove an added file from staging area ###
@@ -54,7 +54,6 @@ git config ###global ###edit
 ### coonecting with ssh to GitHub account ###
  https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
 
-
 ### push commits from local to repository ###
  git push origin master
 
@@ -67,9 +66,10 @@ git config ###global ###edit
 
 ## Concept Map ##
 <p align="center">
-<img src="figures/concept-map.jpeg" width="500"/>
+<img src="figures/concept-map.jpg" width="500"/>
 </p>
 
+## Important notes ##
  /!\ Git doesn't allow you to save a new commit if no files have been updated.
 
  /!\ A commit saves a snapshot of all files in the repository at the time the commit was made, so checking out an earlier commit will result in all the files being reverted to their state at the time the commit was made. That is, the files will be in a consistent state.
