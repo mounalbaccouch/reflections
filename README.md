@@ -11,6 +11,7 @@ git config --global --edit
 
 ### initialise a git repository ###
 cd <working_directory>
+
 git init
 
 ### make a copy of an entire git repository, including the history, onto your own computer ###
@@ -24,7 +25,9 @@ git status
 
 ### compare two commits, printing each line that is present in one commit but not the other ###
 git diff <old_commit_id> <new_commit_id> (diff between two files)
+
 git diff  (diff between working directory and staging area)
+
 git diff --staged (diff between staging area and repository)
 
 ### adding files to the staging area before commit to the repository ###
@@ -32,8 +35,11 @@ git add <file_name>
 
 ### commit changes ###
 git add <files_to_commit>
+
 git commit (then type the commit message)
+
 or
+
 git commit -m "commit message"
 
 ### temporary reset all files in a repository to their state at the time of a specific commit ###
@@ -53,6 +59,7 @@ https://help.github.com/en/github/using-git/caching-your-github-password-in-git
 
 ### to see existant remote ###
 git remote
+
 git remote add origin https://github.com/mounalbaccouch/recipes.git
 
 ### coonecting with ssh to GitHub account ###
@@ -63,12 +70,16 @@ git push origin master
 
 ### in case of conflict, update the local copy with the updates from repository ###
 git fetch origin
+
 git merge master origin/master
 
 ### branches ###
 git branch (to see existant branch)
+
 git branch <new_branch_name> (create a branch <new_branch_name>)
+
 git checkout <branch_name> (switch to the branch <branch_name>)
+
 git checkout -b <new_branch_name> (create new branc to retain created commits)
 
 ### Git sheet ###
