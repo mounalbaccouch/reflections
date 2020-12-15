@@ -52,6 +52,12 @@ or
 git commit -m "commit message"
 ```
 
+### Changing the commit message after pushing it ###
+```
+git commit --amend
+git push --force <example-branch>
+```
+
 ### temporary reset all files in a repository to their state at the time of a specific commit ###
 ```
 git checkout
