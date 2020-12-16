@@ -119,6 +119,12 @@ git merge --abort
 git show <commit_id>
 ```
 
+### Save GitHub login ###
+```
+git config --global credential.helper store
+git pull
+```
+
 ### useful links ###
 #### caching github password ####
 https://help.github.com/en/github/using-git/caching-your-github-password-in-git
