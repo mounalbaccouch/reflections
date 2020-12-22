@@ -40,6 +40,11 @@ git diff  (diff between working directory and staging area)
 git diff --staged (diff between staging area and repository)
 ```
 
+### compare a locally modified file with its remote version with meld (tap 'man git difftool' for more details and other tools)
+```
+git difftool --tool=meld <file_path/file_name>
+```
+
 ### adding files to the staging area before commit to the repository ###
 ```
 git add <file_name>
