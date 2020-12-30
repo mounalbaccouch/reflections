@@ -123,6 +123,13 @@ git checkout <branch_name> (switch to the branch <branch_name>)
 git checkout -b <new_branch_name> (create new branc to retain created commits)
 ```
 
+to rename a branch, we should rename the local, delete the distante then push the local:
+```
+git branch -m vieille_branche nouvelle_branche 
+git push origin :vieille_branche 
+git push --set-upstream origin nouvelle_branche
+```
+
 ### merging two branches ###
 ```
 git merge branch1 branch2
