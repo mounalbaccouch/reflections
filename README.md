@@ -55,6 +55,15 @@ git difftool --tool=meld <file_path/file_name>
 git add <file_name>
 ```
 
+To add all files:
+```
+git add --all
+```
+Or
+```
+git add -A
+``` 
+
 ### commit changes ###
 ```
 git commit (then type the commit message)
