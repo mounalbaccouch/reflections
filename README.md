@@ -84,7 +84,7 @@ git checkout
 
 ### remove an added file from staging area ###
 ```
-git remove <file_name>
+git rm <file_name>
 ```
 
 ### remove a modification from staging area and working directory ###
