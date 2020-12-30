@@ -16,6 +16,11 @@ git config --global --edit
 cd <working_directory>
 git init
 ```
+Or
+```
+git init <working_directory>
+```
+
 ### make a copy of an entire git repository, including the history, onto your own computer ###
 ```
 git clone <git_url>
