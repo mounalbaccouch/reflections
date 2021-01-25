@@ -151,6 +151,13 @@ git config --global credential.helper store
 git pull
 ```
 
+### Keeping the code up-to-date: rebasing ###
+```
+git remote add upstream <git_url>
+git fetch upstream
+git rebase upstream/master
+```
+
 ### useful links ###
 #### caching github password ####
 https://help.github.com/en/github/using-git/caching-your-github-password-in-git
