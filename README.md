@@ -157,6 +157,10 @@ git remote add upstream <git_url>
 git fetch upstream
 git rebase upstream/master
 ```
+### Modify an N range of commits (N is an integer) ###
+```
+git rebase -i "HEAD~N"
+```
 
 ### useful links ###
 #### caching github password ####
