@@ -108,6 +108,11 @@ git remote add origin https://github.com/mounalbaccouch/recipes.git
 git push origin master
 ```
 
+### force push commits (this will remove other commits that don't exist in the local repository) ###
+```
+git push --force origin master
+```
+
 ### in case of conflict, update the local copy with the updates from repository ###
 ```
 git fetch origin
