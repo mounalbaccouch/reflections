@@ -113,6 +113,11 @@ git push origin master
 git push --force origin master
 ```
 
+### command that should be launched when there are commits deleted from the remote repository ###
+```
+git reset --hard origin master
+```
+
 ### in case of conflict, update the local copy with the updates from repository ###
 ```
 git fetch origin
